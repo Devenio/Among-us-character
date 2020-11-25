@@ -1,0 +1,18 @@
+@mixin baseFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin position($position: initial, $top: initial, $right: initial, $bottom: initial, $left: initial){
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+}
